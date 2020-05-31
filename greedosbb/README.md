@@ -12,20 +12,36 @@ Greedos is a intergalactic bounty board for aspiring and experienced bounty hunt
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
+https://imgur.com/fMAibec
+
 
 
 <br>
 
 ### MVP
 
-1. I will have 5 components.
-2. on the SHow Page I will have a picture, list of information.
-3. I will have 5 components built using Storybook.
+1. Make the application landscape to fit computer screens.
+2. Utilizing StoryBook to create components for my applications.
+3. I will add a CSS file that will make it look modern and fun.
+4. Use an API and have the information render onto the application.
+5. I will structure my code professionally with minimal notes.
+
 
 <br>
 
 #### Goals
 My goal is to create an application that will share relative information about characters in the Star Wars universe. I wanted to create an application that is scable and easy to add onto in the future giving me more opportunity to be creative and apply React features regularly moving forward. 
+
+|     Day          | Deliverable                                |
+| :--------------: | :----------------------------------------- |
+|   June 1.        | Project Prompt approval                    |
+|   June 1.        |  Have a successful API call with images    |
+|   June 2.        |  React and Routing complete                |
+|   June 3.        | Storybook project materials                |
+|   June 3-4       | CSS completed.                             |
+|   June 3-4       | Debugging completed.                       |
+|   June 5.        | Present and Pray                           |
+
 
 
 <br>
