@@ -1,18 +1,15 @@
 import React from 'react';
-import {link} from 'react-router-dom';
+import "./People.css";
+
+export default function People() {
+    return (
+
+        <div>
+
+        </div>
 
 
-
-export default function People(props)  {
-    
-        return (
-            <div className='Bounties'>
-                {props.charactersArray && props.charactersArray.map(character =>(
-                    <Link to={`/people/${character.name}`}/>
-                ))}
-                
-            </div>
-        )
-    }
+    )
+}
 
 
