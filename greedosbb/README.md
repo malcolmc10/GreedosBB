@@ -12,7 +12,9 @@ Greedos is a intergalactic bounty board for aspiring and experienced bounty hunt
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
-https://imgur.com/fMAibec
+landscape: https://imgur.com/fMAibec
+
+mobile:    https://imgur.com/oPjNfA4
 
 
 
@@ -20,11 +22,11 @@ https://imgur.com/fMAibec
 
 ### MVP
 
-1. Make the application landscape to fit computer screens.
-2. Utilizing StoryBook to create components for my applications.
-3. I will add a CSS file that will make it look modern and fun.
-4. Use an API and have the information render onto the application.
-5. I will structure my code professionally with minimal notes.
+1. I want to make the application fir for both mobile and landscape to fit computer screens appropriately.
+2. Utilizing StoryBook to create the components that I will use in my header, footer, and body of my application.
+3. I will add a CSS component that will use the data from the API and css to contruct an appealing and inviting application.
+4. I will use the API that I obtained from SWAPI to bring in data about the star wars characters that will fill my website that includes height, weight, race, skin color, planet, affiliations, and alive or dead.
+5. I will structure my code with the means of professionaism. I will avoid dirty code and remove all console.logs and notes that are not required for those who read the code in the future. 
 
 
 <br>
@@ -54,6 +56,7 @@ My goal is to create an application that will share relative information about c
 | :--------------: | :----------------------------------------- |
 |   React Router   | Allows me to use router for my app.        |
 |   Axios          | Allows me to call an API successfully.     |
+|   Storybook      | Allows me to the Storybook library.        |
 
 <br>
 
@@ -115,10 +118,11 @@ src
       |__ Show.jsx
       |__ Footer.jsx
       |__ Nav.jsx
-      |__ Gallery.jsx
+      |__ Details.jsx
       |__ Header.css
       |__ Show.css
       |__ App.css
+      |__ Details.css
 ```
 
 <br>
@@ -131,9 +135,9 @@ src
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
 |  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
+|   Gallery    | functional |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
 |    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+|    Show      | functional |   y   |   y   | _The show will show info about the characters from the API.      |
 
 <br>
 
@@ -155,7 +159,7 @@ src
 | StoryBook           |    H     |     5 hrs      |      hrs      |     TBD      |
 | Creating Logo       |    H     |     1 hrs      |      hrs      |     TBD      |
 |     Debugging       |    H     |     3 hrs      |      hrs      |     TBD      |
-| TOTAL               |          |     37 hrs      |     hrs     |      TBD      |
+| TOTAL               |          |     37 hrs     |     hrs       |      TBD     |
 
 <br>
 
