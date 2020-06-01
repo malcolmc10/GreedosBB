@@ -3,12 +3,17 @@ import "./header.css";
 import {Link} from 'react-router-dom';
 
 
-class Header extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+export default function Header() {
+    return(
+        <header>
+            <nav>
+                <Link to='/'>
+                    <p>Home</p>
+                </Link>
+                <Link to='/about'>
+                    <p>About GreedoBB</p>
+                </Link>
+            </nav>
+        </header>
+    )
 }
