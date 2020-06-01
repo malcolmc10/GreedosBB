@@ -1,36 +1,33 @@
 import React, { Component } from 'react'
-import Show from './Show';
-import axios from 'axios'
+import Axios from 'axios'
 
 export default class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      nowBounty: null,
-      initialState: "",
-      // currentText: "",
-      name: "",
+    state= {
 
-    };
+
+      characters: [],
+      showHeader: true,
+      page: 1,
+      backgroundColor: 'black',
+    }
+
+
+      componentDidMount = async () => {
+        this.getCharacters()
+      }
+      getCharacters = async () => {
+        const response = await Axios.get(`http https://swapi.dev/api/people/1/`)
+      }
   }
 
-  searchBounty = async () => {
-    const nowBounty = await axios.get(`https://swapi.dev/api/people/`);
-    this.setState({
-      nowBounty: nowBounty.data.name,
 
-    });
-  }
 
-  // changeText(currentText) {
-  //   this.setState({ currentText });
-  // }
 
-  comnponentDidMount = async () => {
-    this.searchBounty();
-  }
-  
-  
+
+
+
+
+
   render() {
     return (
       <div>
@@ -39,4 +36,7 @@ export default class App extends Component {
     )
   }
 }
+
+
+
 
