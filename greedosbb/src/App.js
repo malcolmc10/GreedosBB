@@ -3,20 +3,21 @@ import Axios from 'axios';
 import {Route} from 'react-router-dom';
 import Header from './Header.jsx';
 import './App.css'
+import Show from './Show'
 
 export default class App extends Component {
     state= {
-      characters: [],
+      people: [],
       showHeader: true,
-      page: 1,
+      // page: 1,
       background: '#fdffb6',
     }
 
 
       componentDidMount = async () => {
-        this.getCharacters()
+        this.getPeople()
       }
-      getCharacters = async () => {
+      getPeople = async () => {
         const response = await Axios.get(`http https://swapi.dev/api/people/1/`)
       };
   
@@ -25,8 +26,10 @@ export default class App extends Component {
         return (
           <div className='Bounty' style={{backgroundColor: this.state.background}}>
             
-            <button onClick={this.headerToggle}>Hide Header</button>
-            
+            <button onClick={this.headerToggle}>Header be Gone</button>
+            <Route path='/' exact>
+              
+            </Route>
             
           </div>
         )
