@@ -8,7 +8,7 @@ export default class App extends Component {
     this.state = {
       nowBounty: null,
       initialState: "",
-      currentText: "",
+      // currentText: "",
       name: "",
 
     };
@@ -21,14 +21,14 @@ export default class App extends Component {
 
     });
   }
-  
-  
-  
-  
-  
-  
-  
-  
+
+  // changeText(currentText) {
+  //   this.setState({ currentText });
+  // }
+
+  comnponentDidMount = async () => {
+    this.searchBounty();
+  }
   
   
   render() {
