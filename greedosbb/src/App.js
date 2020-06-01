@@ -17,7 +17,7 @@ export default class App extends Component {
       }
       getCharacters = async () => {
         const response = await Axios.get(`http https://swapi.dev/api/people/1/`)
-      }
+      };
   
   
       render() {
@@ -42,14 +42,7 @@ export default class App extends Component {
 
 
 
-  render() {
-    return (
-      <div>
-        <h1>Hello World</h1>
-      </div>
-    )
-  }
-}
+  
 
 
 
