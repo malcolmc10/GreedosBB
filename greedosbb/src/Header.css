@@ -1,8 +1,10 @@
 nav{
     display: flex;
-    display: center;
+    justify-content: center;
+    width: 100%;
 }
 
 nav p {
     margin: 0 2em;
+    width: 30%;
 }

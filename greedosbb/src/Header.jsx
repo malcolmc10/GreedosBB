@@ -10,6 +10,10 @@ export default function Header() {
                 <Link to='/'>
                     <p>Home</p>
                 </Link>
+                {/* still need to add a link to Fancy Button */}
+                <Link to="">
+                    <p>Fancy Button</p>
+                </Link>
                 
             </nav>
         </header>
