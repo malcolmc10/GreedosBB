@@ -7,9 +7,9 @@ export default class App extends Component {
     people: [] 
   }
   
-  componentDIdMount = () => {
-    const response = await.get('https://swapi.dev/api/people')
-    console.log()
+  componentDidMount = async () => {
+    const response = await axios.get('https://swapi.dev/api/people/')
+    console.log(response);
   }
   
   
