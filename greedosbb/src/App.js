@@ -6,12 +6,10 @@ import './App.css'
 
 export default class App extends Component {
     state= {
-
-
       characters: [],
       showHeader: true,
       page: 1,
-      backgroundColor: '#fdffb6',
+      background: '#fdffb6',
     }
 
 
@@ -25,8 +23,11 @@ export default class App extends Component {
   
       render() {
         return (
-          <div className='Bounty' style={{backgroundColor: this.state.backgroundColor}}>
-            <h1>Hello World</h1>
+          <div className='Bounty' style={{backgroundColor: this.state.background}}>
+            
+            <button onClick={this.headerToggle}>Hide Header</button>
+            
+            
           </div>
         )
       }
