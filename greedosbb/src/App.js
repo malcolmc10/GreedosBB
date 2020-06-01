@@ -1,40 +1,27 @@
 import React, { Component } from 'react';
-import Axios from 'axios';
-import {Route} from 'react-router-dom';
-import Header from './Header.jsx';
-import './App.css'
-import Show from './Show'
+import './App.css';
+import axios from 'axios';
 
 export default class App extends Component {
-    state= {
-      people: [],
-      showHeader: true,
-      // page: 1,
-      background: '#fdffb6',
-    }
+  state = {
+    people: [] 
 
 
-      componentDidMount = async () => {
-        this.getPeople()
-      }
-      getPeople = async () => {
-        const response = await Axios.get(`http https://swapi.dev/api/people/1/`)
-      };
+  }
   
   
-      render() {
-        return (
-          <div className='Bounty' style={{backgroundColor: this.state.background}}>
-            
-            <button onClick={this.headerToggle}>Header be Gone</button>
-            <Route path='/' exact>
-              
-            </Route>
-            
-          </div>
-        )
-      }
-    }
+  
+  
+  
+  render() {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
+}
+
   
   
   
