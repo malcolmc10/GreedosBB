@@ -1,5 +1,8 @@
-import React, { Component } from 'react'
-import Axios from 'axios'
+import React, { Component } from 'react';
+import Axios from 'axios';
+import {Route} from 'react-router-dom';
+import Header from './Header.jsx';
+import './App.css'
 
 export default class App extends Component {
     state= {
@@ -8,7 +11,7 @@ export default class App extends Component {
       characters: [],
       showHeader: true,
       page: 1,
-      backgroundColor: 'black',
+      backgroundColor: '#fdffb6',
     }
 
 
@@ -22,7 +25,7 @@ export default class App extends Component {
   
       render() {
         return (
-          <div>
+          <div className='Bounty' style={{backgroundColor: this.state.backgroundColor}}>
             <h1>Hello World</h1>
           </div>
         )
