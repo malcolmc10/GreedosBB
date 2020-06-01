@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
 import People from './People';
+import Header from './Header';
 
 export default class App extends Component {
   state = {
@@ -21,6 +22,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
+        <Header />
         <People pArray={this.state.people} />
       </div>
     )

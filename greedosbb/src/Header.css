@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    display: center;
+}
+
+nav p {
+    margin: 0 2em;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import {Link} from 'react-router-dom';
 
-
+// below is the code for the header. includes link back to the home page.
 export default function Header() {
     return(
         <header>
@@ -10,9 +10,7 @@ export default function Header() {
                 <Link to='/'>
                     <p>Home</p>
                 </Link>
-                <Link to='/about'>
-                    <p>About GreedoBB</p>
-                </Link>
+                
             </nav>
         </header>
     )
