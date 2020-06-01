@@ -21,9 +21,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
-        {this.state.people.map(person=>{
-         return <People person={person} />
-        })}
+        <People pArray={this.state.people} />
       </div>
     )
   }
