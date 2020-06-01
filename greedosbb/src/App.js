@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Show from './Show';
+import axios from 'axios'
 
 export default class App extends Component {
   constructor() {
@@ -13,7 +14,7 @@ export default class App extends Component {
     };
   }
 
-  searchMovie = async () => {
+  searchBounty = async () => {
     const nowBounty = await axios.get(`https://swapi.dev/api/people/`);
     this.setState({
       nowBounty: nowBounty.data.name,
