@@ -8,3 +8,9 @@ nav p {
     margin: 0 2em;
     width: 30%;
 }
+
+header {
+    background-color: grey;
+    font-size: 25px;
+    font-style: italic;
+}
