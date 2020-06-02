@@ -1,7 +1,9 @@
 footer {
+    font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
     background-color: #f5f5f5;
     color: #202329;
     width:100%
+
 }

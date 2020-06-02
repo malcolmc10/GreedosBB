@@ -2,11 +2,14 @@ nav{
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #202329;
 }
 
 nav p {
     margin: 0 2em;
     width: 30%;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -17,4 +20,10 @@ header {
     height: 70px;
     line-height: 70px;
     width: 100%;
+    font-family: 'Lato', sans-serif;
 }
+
+.topBar {
+    color: #202329;
+}
+

@@ -7,13 +7,10 @@ export default function Header() {
     return(
         <header>
             <nav>
-                <Link to='/'>
+                <Link to='/' className="topBar">
                     <p>Home</p>
                 </Link>
-                {/* still need to add a link to Fancy Button */}
-                <Link to="">
-                    <p>About</p>
-                </Link>
+                
                 
             </nav>
         </header>
