@@ -29,6 +29,7 @@ export default class App extends Component {
         <People pArray={this.state.people} />
         <Footer />
         <Route path='/person/:personName'>
+          {/* my props arent showing^ */}
           <Show />
         </Route>
       </div>
