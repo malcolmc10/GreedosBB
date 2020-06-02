@@ -4,7 +4,8 @@ import {withRouter} from 'react-router-dom'
 function Show(props) {
     return (
         <div>
-            
+           <p>Show Page</p> 
+           
         </div>
     )
 }

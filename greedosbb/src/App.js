@@ -26,12 +26,15 @@ export default class App extends Component {
     return (
       <div className="app">
         <Header />
+        <Route path="/" exact>
         <People pArray={this.state.people} />
-        <Footer />
-        <Route path='/person/:personName'>
-          {/* my props arent showing^ */}
+        </Route>
+        
+        <Route path='/person/:personName' exact>
+          {/* my props arent */}
           <Show />
         </Route>
+        <Footer />
       </div>
     )
   }
