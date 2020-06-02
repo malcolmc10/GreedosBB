@@ -12,7 +12,7 @@ export default function Header() {
                 </Link>
                 {/* still need to add a link to Fancy Button */}
                 <Link to="">
-                    <p>Fancy Button</p>
+                    <p>About</p>
                 </Link>
                 
             </nav>

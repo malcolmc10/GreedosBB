@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import People from './People';
 import Header from './Header';
+import {Route} from 'react-router-dom';
 
 export default class App extends Component {
   state = {

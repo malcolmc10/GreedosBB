@@ -10,7 +10,9 @@ nav p {
 }
 
 header {
-    background-color: grey;
+    background-color: yellow;
     font-size: 25px;
     font-style: italic;
+    height: 70px;
+    line-height: 70px;
 }
