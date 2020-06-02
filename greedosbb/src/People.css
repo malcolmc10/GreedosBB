@@ -6,9 +6,13 @@
 }
 
 .people {
-    width:50%;
+    width:100%;
     margin-top:2em;
-    border: solid black;
+    border: solid blue;
     border-radius: 5%;
 }
 
+.people a {
+width: 100%;
+
+}

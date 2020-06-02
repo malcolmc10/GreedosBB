@@ -10,7 +10,7 @@ export default function People(props) {
         <div className="people">
             {props.pArray.map(person=>(
                <div className="person">
-                <Link>
+                <Link to={`/person/${person.name}`}>
                 <h1>{person.name}</h1> 
                </Link>
                </div> 

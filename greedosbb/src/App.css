@@ -1,4 +1,6 @@
 .app {
+/* display: flex; */
 background-color: turquoise;
-
+align-content: center;
+margin: 10px 10px 10px 10px;
 }

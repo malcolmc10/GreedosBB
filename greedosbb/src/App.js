@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios';
 import People from './People';
+import Show from './Show';
 import Header from './Header';
+import Footer from "./Footer"
 import {Route} from 'react-router-dom';
 
 export default class App extends Component {
@@ -25,6 +27,10 @@ export default class App extends Component {
       <div className="app">
         <Header />
         <People pArray={this.state.people} />
+        <Footer />
+        <Route path='/person/:personName'>
+          <Show />
+        </Route>
       </div>
     )
   }
@@ -37,14 +43,6 @@ export default class App extends Component {
     
 
 
-
-
-
-
-
-
-
-  
 
 
 
