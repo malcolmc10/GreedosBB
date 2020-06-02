@@ -7,8 +7,8 @@ import {Link} from 'react-router-dom';
 export default function Footer() {
     return(
         <footer>
-            <p>This project is made by Colin Malcolm using the SWAPI API.</p>
-            <p>All images are linked to Wookiepedia.com</p>
+            <p>This project is made by a bunch of Jawas using the SWAPI API.</p>
+            <p>Created by: Colin Malcolm</p>
         </footer>
     )
 }

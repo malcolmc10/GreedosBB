@@ -31,8 +31,8 @@ export default class App extends Component {
         </Route>
         
         <Route path='/person/:personName' exact>
-          {/* my props arent */}
-          <Show />
+          <Show pArray={this.state.people} />
+          
         </Route>
         <Footer />
       </div>

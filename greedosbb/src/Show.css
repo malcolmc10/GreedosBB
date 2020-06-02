@@ -1,3 +1,8 @@
-h1 {
+div {
+    background-color: grey;
     color: yellow;
+    align-items: center;
+    justify-content: center;
+    
+
 }
