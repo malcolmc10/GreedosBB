@@ -4,5 +4,13 @@ div {
     align-items: center;
     justify-content: center;
     
+}
 
+p {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+    font-size: larger;
 }
