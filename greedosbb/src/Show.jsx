@@ -18,6 +18,8 @@ function Show(props) {
     <p><span>Hair Color:</span> {selectedPerson && selectedPerson.hair_color}</p>
     <p><span>Skin Color:</span> {selectedPerson && selectedPerson.skin_color}</p>
     <p><span>Eye Color:</span> {selectedPerson && selectedPerson.eye_color}</p>
+
+    
     
     </div>
     
