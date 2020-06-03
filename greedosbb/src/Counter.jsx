@@ -11,17 +11,17 @@ export default class Counter extends Component {
             number: 1
         }
     }
-    randomNumber = () => {
-        const randomNumber = Math.floor(Math.random() * 100000000000000) + 1;
+    componentDidMount = () => {
+        const randomNumber = Math.floor(Math.random() * 100000000000000) + 100;
         this.setState({
             number: randomNumber
         })
     }
     render() {
         return (
-            <div>
+            <>
                 <p>{this.state.number}</p>
-            </div>
+            </>
         );
     }
 }

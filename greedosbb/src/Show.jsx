@@ -1,6 +1,7 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
 import './Show.css'
+import Counter from './Counter';
 
 function Show(props) {
     const personName = props.match.params.personName
@@ -18,6 +19,10 @@ function Show(props) {
     <p><span>Hair Color:</span> {selectedPerson && selectedPerson.hair_color}</p>
     <p><span>Skin Color:</span> {selectedPerson && selectedPerson.skin_color}</p>
     <p><span>Eye Color:</span> {selectedPerson && selectedPerson.eye_color}</p>
+    <p><span>Bounty Listed At:</span></p>
+    <div className="amount">
+    <Counter /><p>₹</p>
+</div>
 
     
     

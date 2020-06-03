@@ -15,5 +15,14 @@ p {
 span {
     font-weight: bold;
     font-size: larger;
-    color: greenyellow;
+    color: #e2d872;
+    
+}
+
+.amount {
+    font-size: xx-large;
+    font-style: bold;
+    display: flex;
+    justify-content: left;
+    font-family: 'Lato', sans-serif;
 }
