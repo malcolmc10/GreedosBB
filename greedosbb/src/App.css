@@ -5,15 +5,16 @@ align-content: center;
 margin: 10px 10px 10px 10px;
 font-family: 'Lato', sans-serif;
 
+
+
 }
 
 a {
     border: solid #202329;
-    /* background-position: center; */
     border-radius: 12px;
     text-align: center;
     display: inline-block;
-    margin: -10px
-    
+    margin: -10px;
+       
 }
 

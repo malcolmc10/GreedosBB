@@ -32,9 +32,8 @@ span {
 
 .showMe {
     
-    height:auto;
-    width: 20%;
-    
-    
-    
+    height:300px;
+    width: 300px;
+    overflow: hidden;
+    margin: 0;
 }
