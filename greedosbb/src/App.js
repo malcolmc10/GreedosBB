@@ -7,6 +7,7 @@ import Header from './Header';
 import Footer from "./Footer"
 import {Route} from 'react-router-dom';
 
+
 export default class App extends Component {
   state = {
     people: [] 
