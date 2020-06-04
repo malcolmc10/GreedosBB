@@ -9,7 +9,7 @@ font-family: 'Lato', sans-serif;
 
 a {
     border: solid #202329;
-    background-position: center;
+    /* background-position: center; */
     border-radius: 12px;
     text-align: center;
     display: inline-block;

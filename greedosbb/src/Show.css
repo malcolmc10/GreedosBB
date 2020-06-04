@@ -2,7 +2,6 @@ div {
     background-color: #202329;
     color: #ffffff;
     align-items: center;
-    justify-content: center;
     font-family: 'Lato', sans-serif;
     
 }
@@ -25,4 +24,12 @@ span {
     display: flex;
     justify-content: left;
     font-family: 'Lato', sans-serif;
+}
+
+.showMe {
+    max-width:90%;
+    height:auto;
+    text-align: right;
+    
+    
 }

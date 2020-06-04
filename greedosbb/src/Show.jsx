@@ -10,7 +10,7 @@ function Show(props) {
     })
     console.log(selectedPerson)
     return (
-        <div>
+        <div className="stars">
             <h1 className="suga">{selectedPerson && selectedPerson.name}</h1>
     <p><span>Gender:</span>{selectedPerson && selectedPerson.gender}</p>
     <p><span>Birth Year:</span>{selectedPerson && selectedPerson.birth_year}</p>
@@ -24,6 +24,9 @@ function Show(props) {
     <Counter /><p>₹</p>
 </div>
 
+<div className="showMe">
+    <img src={require('./Greedo-Approved.png')} />
+</div>
     
     
     </div>

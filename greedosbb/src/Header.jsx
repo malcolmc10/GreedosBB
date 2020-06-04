@@ -9,10 +9,14 @@ export default function Header() {
             <nav>
                 <Link to='/' className="topBar">
                     <p>Home</p>
+                    
                 </Link>
                 
                 
             </nav>
+            
+            
         </header>
+        
     )
 }

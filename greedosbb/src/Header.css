@@ -25,5 +25,12 @@ header {
 
 .topBar {
     color: #202329;
+    background-color: #f5f5f5;
+    border: solid;
+    margin-bottom: 10px;
 }
 
+.Logo {
+    max-width:100%;
+    height:auto;
+}
