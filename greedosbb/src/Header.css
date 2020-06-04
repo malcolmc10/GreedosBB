@@ -29,15 +29,24 @@ header {
 .topBar {
     color: #202329;
     background-color: #f5f5f5;
-    border: solid;
+    border: solid #202329;
     margin-bottom: 10px;
+    height: 100%;
+    width:100px;
+    
 }
 
 .logo {
-    display: flex;
-    height:30px;
+    
+    height:100%;
     width: 300px;
     justify-content: left;
+}
+
+.link {
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 

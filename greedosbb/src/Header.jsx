@@ -11,7 +11,7 @@ export default function Header() {
              <Logo />
             </div>
             
-            <nav>
+            
                 <div className="link">
                 <Link to='/' className="topBar">
                     
@@ -20,7 +20,7 @@ export default function Header() {
                 </Link>
                 </div>
                 
-            </nav>
+            
             
             
         </header>
