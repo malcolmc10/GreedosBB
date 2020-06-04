@@ -1,4 +1,7 @@
-div {
+.stars {
+    text-align: left;
+    display: inline-block;
+    width:100%;
     background-color: #202329;
     color: #ffffff;
     align-items: center;
@@ -29,7 +32,8 @@ span {
 .showMe {
     max-width:90%;
     height:auto;
-    text-align: right;
+    /* text-align: right; */
+    /* display: inline-block; */
     
     
 }
