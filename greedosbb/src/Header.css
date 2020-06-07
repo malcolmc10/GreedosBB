@@ -41,6 +41,9 @@ header {
         width: 100%;
         font-size: 20px;
     }
+    .logo{
+        width: 300px;
+    }
 
 }
 @media (max-width: 870px){
