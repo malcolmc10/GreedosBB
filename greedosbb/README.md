@@ -23,9 +23,8 @@ mobile:    https://imgur.com/oPjNfA4
 ### MVP
 
 1. I want to make the application fir for both mobile and landscape to fit computer screens appropriately.
-2. Utilizing StoryBook to create the components that I will use in my header, footer, and body of my application.
 3. I will add a CSS component that will use the data from the API and css to contruct an appealing and inviting application.
-4. I will use the API that I obtained from SWAPI to bring in data about the star wars characters that will fill my website that includes height, weight, race, skin color, planet, affiliations, and alive or dead.
+4. I will use the API that I obtained from SWAPI to bring in data about the star wars characters that will fill my website that includes height, weight, skin color.
 5. I will structure my code with the means of professionaism. I will avoid dirty code and remove all console.logs and notes that are not required for those who read the code in the future. 
 
 
@@ -56,7 +55,7 @@ My goal is to create an application that will share relative information about c
 | :--------------: | :----------------------------------------- |
 |   React Router   | Allows me to use router for my app.        |
 |   Axios          | Allows me to call an API successfully.     |
-|   Storybook      | Allows me to the Storybook library.        |
+
 
 <br>
 
@@ -107,22 +106,25 @@ My goal is to create an application that will share relative information about c
 
 ```
 src
-|__ assets/
-      |__ data-tests
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
-|__ components/
-      |__ Header.jsx
-      |__ Show.jsx
-      |__ Footer.jsx
-      |__ Nav.jsx
-      |__ Details.jsx
-      |__ Header.css
-      |__ Show.css
+|______
       |__ App.css
-      |__ Details.css
+      |__ App.js
+      |__App.test.js
+      |__ Counter.jsx
+      |__ Footer.css
+      |__ Footer.jsx
+      |__ Headr.css
+      |__ Header.jsx
+      |__ index.css
+      |__ index.js
+      |__ Logo.jsx
+      |__People.css
+      |__People.css
+      |__serviceWorker.js
+      |__setupTests.js
+      |__Show.css
+      |__ Show.jsx
+      
 ```
 
 <br>
@@ -134,10 +136,12 @@ src
 |  Component   |    Type    | State | Props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    | functional |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
-|    Show      | functional |   y   |   y   | _The show will show info about the characters from the API.      |
+|  Logo.       | functional |   n   |   n   | _This component holds the Logo of the website application        |
+|   People     | functional |   y   |   n   | _This component holds all the info_                              |
+|    App.      | functional |   n   |   n   | _This page holds all the routes and links_.                      |
+|    Footer    | functional |   y   |   y   | _This component holds where I received the API and my name.      |
+|    Counter   | functional |   y   |   y   | _This component holds the counter component for random numbers.  |
+|    CSS pages | functional |   y   |   y   | _These components hold all of the styling for my application.    |
 
 <br>
 
@@ -149,27 +153,20 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add header compoent |    M     |     3 hrs      |      hrs     |      hrs      |
-| Call API.           |    H     |     3 hrs      |      hrs     |      TBD      |
-| Render images       |    H     |     3 hrs      |      hrs     |      TBD      |
-| Create Links        |    H     |     4 hrs      |      hrs     |      TBD      |
-| Develop Show Page   |    H     |     5 hrs      |      hrs      |     TBD      |
-| Add About Me Page   |    H     |     5 hrs      |      hrs      |     TBD      |
-| CSS                 |    M     |     5 hrs      |      hrs      |     TBD      |
-| StoryBook           |    H     |     5 hrs      |      hrs      |     TBD      |
-| Creating Logo       |    H     |     1 hrs      |      hrs      |     TBD      |
-|     Debugging       |    H     |     3 hrs      |      hrs      |     TBD      |
-| TOTAL               |          |     37 hrs     |     hrs       |      TBD     |
+| Add header compoent |    M     |     3 hrs      |      2hrs     |      2hrs      |
+| Call API.           |    H     |     3 hrs      |      3hrs     |      3hrs      |
+| Render images       |    H     |     3 hrs      |      5hrs     |      5hrs      |
+| Create Links        |    H     |     4 hrs      |      2hrs     |      2 hrs     |
+| Develop Show Page   |    H     |     5 hrs      |      5hrs     |     5 hrs     |
+| Add Counter Page    |    H     |     1 hrs      |      1hrs     |     1  hr      |
+| CSS                 |    M     |     5 hrs      |      5hrs     |     5hr       |
+| StoryBook           |    H     |     5 hrs      |      0hrs     |     0        |
+| Creating Logo       |    H     |     1 hrs      |      1hrs     |     1hr      |
+|     Debugging       |    H     |     3 hrs      |      4hrs     |     4hrs      |
+| TOTAL               |          |     37 hrs     |     29hrs     |      29hrs    |
 
 <br>
 
-#### Helper Functions
-
-> Use this section to document all helper functions, i.e. generic functions that can be reused in other applications.
-
-|  Function  | Description                                |
-| :--------: | :----------------------------------------- |
-| Capitalize | _Lorem ipsum dolor sit amet, consectetur._ |
 
 <br>
 
@@ -201,9 +198,33 @@ src
 > Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
 
 ```
-code snippet here
+export default class Counter extends Component {
+    constructor() {
+        super();
+        this.state = {
+
+            number: 1
+        }
+    }
+    componentDidMount = () => {
+        const randomNumber = Math.floor(Math.random() * 100000000000000) + 100;
+        this.setState({
+            number: randomNumber
+        })
+    }
+    render() {
+        return (
+            <>
+                <p>{this.state.number}</p>
+            </>
+        );
+    }
+}
 ```
 
 ### Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+> I removed the StoryBook MVP due to it not being needed for this project any longer. 
+>I added a few more components due to need. I added a Logo component, Counter Component, and 4 more CSS components for styling individual elements.
+>I changed the layout slightly due to the infomation my API allowed, the images are smaller some I was able to hold more names on 1 line.
+>The placement of my Logo and homebutton were moved due to styling changes. 
