@@ -15,7 +15,7 @@ export default class App extends Component {
   
   componentDidMount = async () => {
     const response = await axios.get('https://swapi.dev/api/people/')
-        // console.log(response)  
+          
   this.setState({
       people: response.data.results
     })

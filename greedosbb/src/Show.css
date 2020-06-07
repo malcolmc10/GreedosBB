@@ -37,3 +37,26 @@ span {
     overflow: hidden;
     margin: 0;
 }
+
+@media (max-width: 580px){
+    .amount{
+        
+        width: 100%;
+        font-size: 15px;
+        display: column;
+        
+    }
+    
+    .stars {
+        
+        font-size: 15px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+  

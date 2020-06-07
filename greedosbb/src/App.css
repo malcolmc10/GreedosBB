@@ -1,20 +1,36 @@
+
+
+
 .app {
-/* display: flex; */
+
 background-color: #202329;
 align-content: center;
-margin: 10px 10px 10px 10px;
 font-family: 'Lato', sans-serif;
+width: 100%;
 
 
 
 }
 
 a {
-    border: solid #202329;
-    border-radius: 12px;
+    
     text-align: center;
     display: inline-block;
     margin: -10px;
        
 }
 
+
+@media (max-width: 870px){
+    a {
+        height: 100px;
+        width: 100px;
+    }
+    }
+
+    @media (max-width: 580px){
+        a {
+            height: 40px;
+            width: 100px;
+        }
+        }

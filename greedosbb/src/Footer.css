@@ -8,9 +8,19 @@ footer {
     padding: 0;
     padding-top: 10px;
     width: 100%;
-    min-width: 1000px;
     margin: auto;
     
 
+
+}
+
+@media (max-width: 580px){
+    footer {
+        height: 100px;
+        width: 100%;
+        font-size: 15px;
+        display: column;
+
+    }
 
 }

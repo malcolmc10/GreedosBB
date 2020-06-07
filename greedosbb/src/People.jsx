@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 export default function People(props) {
     
     return (
-        // I want to add an image to the characters below. based on affiliation.
+        
         
         <div className="people">
             {props.pArray.map(person=>(
