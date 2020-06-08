@@ -25,6 +25,7 @@ a {
     a {
         height: 100px;
         width: 100px;
+        
     }
     }
 
@@ -32,5 +33,6 @@ a {
         a {
             height: 40px;
             width: 100px;
+            display: inline-block;
         }
         }
