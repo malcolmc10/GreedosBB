@@ -4,7 +4,8 @@
 # GreedosBB
 Greedos is a intergalactic bounty board for aspiring and experienced bounty hunters across the galaxy. This website shows a list of star wars characters and the information on each of the characters including, planet, eye color, affiliations, and if they are alive. 
 
-
+Deployed site:
+https://greedosbb.netlify.app/
 
 <br>
 
