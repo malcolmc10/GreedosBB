@@ -11,7 +11,7 @@ https://greedosbb.netlify.app/
 
 ### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views.
+
 
 landscape: https://imgur.com/fMAibec
 
@@ -50,7 +50,7 @@ My goal is to create an application that will share relative information about c
 
 #### Libraries
 
-> Use this section to list all supporting libraries and their role in the project.
+
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
@@ -62,7 +62,7 @@ My goal is to create an application that will share relative information about c
 
 #### Data
 
-> Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
+
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
@@ -103,7 +103,7 @@ My goal is to create an application that will share relative information about c
 
 #### Component Hierarchy
 
-> Use this section to define your React components and the data architecture of your app.
+
 
 ```
 src
@@ -132,7 +132,7 @@ src
 
 #### Component Breakdown
 
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
+
 
 |  Component   |    Type    | State | Props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
@@ -148,9 +148,7 @@ src
 
 #### Component Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above. 
->
-> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
+
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
@@ -173,7 +171,7 @@ src
 
 ### Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+
 
 - Add randomizer for random bounty amounts for each character shown.
 - Add more endpoints to increase the information shared including planets and starships.
@@ -196,7 +194,7 @@ src
 
 ### Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+
 
 ```
 export default class Counter extends Component {
